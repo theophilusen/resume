@@ -1,0 +1,235 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #efefef;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.profile-img {
+    width: 40%;
+    float: right;
+    position:relative;
+    display: block;
+    
+}
+.profile-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.summary {
+    margin-left: 15px;
+}
+
+.info {
+    width: 55%;
+    height: 100vh;
+    float: left;
+    margin: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.info::-webkit-scrollbar {
+    width: 0;
+}
+
+.info h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: blue;
+
+}
+
+.social img {
+    height: 40px;
+    margin-right: 15px;
+}
+
+.social {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.info h2 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: rgb(69, 24, 194);
+}
+
+.experience img {
+    height: 60px;
+    margin: 5px;
+}
+.experience {
+    display: inline-block;
+    width: 28%;
+    height: 60%;
+    margin: 2%;
+    padding: 5px;
+    padding-top: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+    background-color: white;
+    
+}
+.experience small {
+    padding-top: 10px;
+    display: block;
+}
+
+.headermg img {
+    display: inline-block;
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.education img{
+    height: 60px;
+    margin: 5px;
+}
+.education p {
+    color: seagreen;
+}
+
+.education {
+    display: inline-block;
+    width: 28%;
+    margin: 2%;
+    padding: 5px;
+    padding-top: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+    background-color: white;
+}
+.skills {
+    display: flex;
+    
+}
+.tskills {
+   
+    width: 30%;
+    height: 250px;
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 80px;
+    text-align: center;
+    background-color: seashell;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+}
+.skills h3 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: seagreen;
+}
+.softskills{
+    
+    width: 30%;
+    height: 250px;
+    padding: 15px;
+    margin-right: 70px;
+    margin-left: 10px;
+    margin-top: 80px;
+    text-align: center;
+    background-color: seashell;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+}
+.certification {
+    height: 400px;
+    width: 35%;
+    padding: 15px;
+    align-self: center;
+    margin-top: 80px;
+    margin-left: 80px;
+    text-align: center;
+    background-color: seashell;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+}
+.contact {
+    margin-top: 30px;
+}
+
+.input-group input {
+    width: 45%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    display: inline-block;
+    background: silver;
+}
+.text-area textarea {
+    width: 95%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    background: silver;
+}
+.submit-btn {
+    border: 0;
+    outline: none !important;
+    padding: 10px 20px;
+    margin: 2%;
+    background: rgb(41, 10, 221);
+    cursor: pointer;
+    color: white;
+}
+.developer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 900px)
+{
+    body {
+        margin-left: 8px;
+        margin-right: 8px;
+        background-color: lightcyan;
+    }
+    .info {
+        width: 100%;
+        overflow: inherit;
+    }
+    .headermg{
+        width: 100%;
+    }
+    .profile-img {
+        width: 100%;
+    }
+    .experience {
+        width: 95%;
+        height: 30%;
+        margin-bottom: 10%;
+    }
+    .experience img {
+        height: 8%;
+        margin: 10px 0;
+    }
+    .education{
+        width: 50%;
+    }
+    .skills {
+        width: 100%;
+    
+    }
+    .tskills {
+        width: 50%;
+        height: 300px;
+    }
+    .softskills {
+        width: 50%;
+        height: 300px;
+
+    }
+    .certification {
+        width: 50%;
+        height: 500px;
+        margin-top: 50px;
+        align-self: center;
+    }
+         
+}
+
